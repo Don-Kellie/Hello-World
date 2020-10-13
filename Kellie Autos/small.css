@@ -1,0 +1,218 @@
+/* Small Screen Rules */
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*h1{
+    color: red;
+}
+p{
+    color: purple;
+}
+
+figure.banner {width: 90%;}
+figure.banner img {width: 100%;}*/
+
+
+
+
+
+
+
+
+
+/*----------- BODY------------*/
+body{
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+/*  
+primaryColor - #424e64
+secondaryColor - #bbc2ca
+fontColor - #35373a
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------- HEADER------------*/
+h1{color: red;}
+header{
+    background-color: #424e64;
+    color: #35373a;
+    padding: 1rem 2%;
+}
+
+header h1{
+    font-size: 2rem;
+    font-weight: 300;
+}
+header h2{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+form{
+    float: right;
+}
+form input{
+    width: 6rem;
+    border-radius: 10px;
+    margin-right: 2%;
+    padding: .2rem;
+    transition: width .5s;
+}
+form input: focus{width:8rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------- NAVIGATION------------*/
+nav{
+    background-color: #bbc2ca;
+     border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li{
+    float: left;
+    width: 19%;
+    /*border-right: 1px solid rgba(0,0,0,0.3);*/
+}
+nav ul li:last-child{
+    border-right: none;
+}
+nav ul li a{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    padding: .5rem;
+    color: #424e64;
+    text-decoration: none;
+    transition: background 0.75s ease, color 0.75s ease;
+}
+
+nav ul li.active a{
+    background-color: dimgrey;
+}
+nav ul li a:hover {
+    color:#bbc2ca;
+    background-color:#424e64;
+}
+
+
+
+
+
+
+
+
+
+/*----------- MAIN------------*/
+.blogs{
+    color: chartreuse;
+}
+main h1{
+    font-size: 2rem;
+    margin: 1rem 0 0 2%;
+    color:  #424e64;
+}
+main h2{
+    font-size: 1.5rem;
+    margin: 1rem 0 0 2%;
+    color:  #424e64;
+}
+main h3{
+    font-size: 1.2rem;
+    margin: 1rem 0 0 2%;
+    color:  #424e64;
+}
+h4{
+    text-align: center;
+    color: chartreuse;
+}
+p{
+    line-height: 130%;
+    color: #35373a;
+}
+main figure.banner{width: 100%;}
+main figure.banner img{width:  100%;}
+hr.fadeAway{
+    background-color: #424e64;
+    height: 2px;
+    border: none;
+    margin: 2px 2%;
+}
+main figure.photo{width: 100% - 4%; margin: .5rem 2%;}
+main figure.photo img{width:100%;}
+figure.photo figcaption{text-align: center; color:#424e64;}
+
+div.blog article{
+    margin: .5rem 2%;
+    width: 96 %;
+}
+main a{
+    text-decoration: none;
+    color: chartreuse;
+}
+    /*-----new cars styles---*/
+.info{
+    text-align: center;
+    width: 50%;
+    margin-left: 200px;
+}
+input {
+    width: 50%;
+}
+
+/*--------Used cars Styles---*/
+
+
+
+
+
+
+
+
+/*----------- FOOTER------------*/
+footer{
+    background-color: #424e64;
+    color: #bbc2ca;
+    text-align: center;
+    padding: .75rem 0;
+    font-size: .9rem;
+}
+footer p a{
+    color:#bbc2ca;
+}
+
+
+
+
+
+
+
+/*-----clearfix: force element not to collapse*/
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}

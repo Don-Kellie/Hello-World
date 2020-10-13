@@ -1,0 +1,59 @@
+body{
+    margin: 0 auto;
+    border: 2px solid black;
+}
+header{
+    background-color: dimgray;
+    padding: 20px;
+}
+h2, form{padding: 20px;}
+nav li{
+    float: right;
+    padding-right: 25px;
+    list-style: none;
+}
+.menu{
+    margin-right: 10px;
+}
+ .menu li{
+    border: 1px black solid;
+    padding: 5px;
+    list-style: none;
+    padding-right: 45px;
+    width: 20%;
+}
+.form{
+    margin: 10px;
+}
+ .button{
+    background-color: green;
+     color: white;
+     padding: 5px;
+     border-radius: 10px;
+}
+ul > .billing{
+    border-left: 4px red solid;
+    color: green;
+}
+a{
+    color: white;
+}
+footer{
+    background-color: dimgray;
+    background-color: #424e64;
+    color: #bbc2ca;
+    text-align: center;
+    padding: .75rem 0;
+        font-size: .9rem;
+    }
+footer p a{
+    color:#bbc2ca;
+}
+
+
+
+
+
+
+
+

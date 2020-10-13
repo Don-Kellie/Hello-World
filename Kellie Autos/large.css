@@ -1,0 +1,59 @@
+/* Large Screen Rules */ 
+
+
+@media only screen and (min-width: 960px) {
+    
+    /*-----Body-----*/
+    div#wrapper{
+       max-width: 70rem;
+        margin: 2rem auto;
+        box-shadow: 0 0 10px #000000;
+        background-color: white;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+      /*-----Header-----*/
+    h1{color: green;}
+    
+      /*-----Navigation-----*/
+    nav ul{
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+    nav ul li{
+        width: auto;
+        margin-left: 2%;
+        padding: 2.5rem, 1rem;
+    }
+    nav ul li:last-child{ border-right: 1px solid rgba(0,0,0,0.3);}
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+      /*-----Main-----*/
+     main figure.photo{
+         width: 21%; 
+         float: left;}
+    div.blog article{
+        width: 25%; float: left;
+    }
+    div.blog article:nth-child(2n+1){clear: none;}
+    
+    div.blog article:nth-child(3n+1){clear: left;} /* end media query */ 
+
+/*div#wrapper{
+    max-width: 80rem;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px #000000;
+}*/

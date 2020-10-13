@@ -1,0 +1,37 @@
+/* Medium Screen Rules */
+
+@media only screen and (min-width: 500px) {
+    /*-----Header------*/
+    h1{color: yellow;}
+    
+    
+    
+    
+    
+    
+    
+     /*-----Navigation-----*/
+    
+    
+    
+    
+    
+    
+    
+    
+     /*-----Main------*/
+    main figure.photo{
+        width: 46%; float: left;
+    }
+    div.blog article{
+        width: 46%; float: left;
+    }
+    div.blog article:nth-child(2n+1){
+        clear: left;
+    }
+} 
+
+   /*-----New Cars-------*/
+main p {
+    text-align: center;
+}
