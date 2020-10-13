@@ -8,5 +8,5 @@ function calculate(){
     var x = parseInt(document.calcform.num1.value);
     var y = parseInt(document.calcfom.num2.value);
     var z = document.calcform.result;
-    z.value = x+y; //it didnt return the two numbers i triend to add but the alert worked in the function
+    z.value = x+y; //it didnt return the two numbers i tried to add but the alert worked in the function
 }
