@@ -1,7 +1,7 @@
 document.write("<br/>");
 document.write("ON CLICK");
 document.write("<br/>"); 
-
+//check this code zenius, its not working as i expected!
 
 function calculate(){
     alert("This is supposed to work na");
